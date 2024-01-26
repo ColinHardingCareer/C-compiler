@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+const int c1 = 123 , c2 = 200;
+const char c3 = 'A';
+const int c5 = c1;
+int sum, i1_2k, i, i1 = 432, i2,i3 = i1, i4 = c3, i5, i6, i7;
+char ch1 = 'B',ch2 = ch1;
+int a1[6], a2[7], v1, v2;
+char a3[5], char_1, char_2;
+
+int main(){
+	//i1=2-1;
+	//cout << i1 << i2;
+
+	i1 = a1[0];
+	a1[0]=i1;
+	if (i1 <=  i2 + 11)
+		i1 = c1 +12;
+	else{
+		i3=13;
+		i4=14;
+	}
+	if (i4 >=i1)
+		while (i5 >= 22 && i6 > 33)
+		if(i7 == 44)
+			while(i1 > 55)
+			i1 = i1 -66;
+		else i7 = 77;
+	else if (i4 > 88)
+		i4 = 99;
+	else i4 = 111;
+	if(i <= 222 && sum < 333 || !(sum > 444 && i3 == 555))
+	sum = 1001;
+	else sum = 1002;
+
+	cout << i3;
+	return 0;
+}
